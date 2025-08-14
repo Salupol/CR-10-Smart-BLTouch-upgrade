@@ -69,14 +69,13 @@ Edit your Klipper config file:
 ```ini
 [probe]
 [filament_switch_sensor runout_sensor]  # If filament sensor is being reused
-[output_pin lights]                     # If LED pin is reused
 ````
 
 #### Add or modify the `[bltouch]` section:
 
 ```ini
 [bltouch]
-sensor_pin: ^PB2    # PB2 = Z endstop; PA7 = filament sensor; PA6 = LED
+sensor_pin: ^PB2    # PB2 = Z endstop; PA7 = filament sensor;
 control_pin: PA7    # Servo control pin (connects to filament sensor yellow wire)
 x_offset: 0.0
 y_offset: 0.0
