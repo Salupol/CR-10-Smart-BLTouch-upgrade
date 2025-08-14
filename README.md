@@ -47,7 +47,7 @@ The CRC2405 has limited I/O pins, so you’ll need to **sacrifice** some unused 
 - 🔌 **Filament runout sensor**
 - 🔌 **Z-axis optical endstop**
 
-> ✅ Optionally, you could try sacrificing the **LED light near the X motor** instead of the filament sensor or endstop (not tested yet).
+> DO NOT TRY to use LED pins, they will burn out your bl-touch
 
 #### Wiring
 
